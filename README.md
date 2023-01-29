@@ -1,4 +1,4 @@
-# [Chapter Challenge Name]
+# Detecting Hateful and Offensive Language using NLP (Aswan Chapter)
 
 
 ## Contribution Guidelines
