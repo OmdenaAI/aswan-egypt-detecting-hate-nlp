@@ -1,4 +1,5 @@
-# Detecting Hateful and Offensive Language using NLP (Aswan Chapter)
+# Detecting Hateful and Offensive Language using NLP 
+# (Aswan Chapter)
 
 
 ## Contribution Guidelines
