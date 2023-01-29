@@ -1,6 +1,7 @@
 # Detecting Hateful and Offensive Language using NLP 
 ## Omdena Aswan Chapter
 
+> Please contact @CaterinaBi for any question/request related to this repo.
 
 ## Contribution Guidelines
 - Have a Look at the [project structure](#project-structure) and [folder overview](#folder-overview) below to understand where to store/upload your contribution
