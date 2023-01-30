@@ -11,7 +11,7 @@ The table below lists the datasets chosen for our project, their location, and t
 |1| HateXplain| [https://github.com/hate-alert/HateXplain](https://github.com/hate-alert/HateXplain) |         |
 |2| Toxic Comment Classification Challenge | [https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data) |         |
 |3| measuring-hate-speech | [https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech](https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech) | Ameya Chaudhari |
-|4|         |         |         |
+|4[^1]  |         |         |         |
 |5|         |         |         |
 |6|         |         |         |
 |7|         |         |         |
@@ -22,3 +22,5 @@ The table below lists the datasets chosen for our project, their location, and t
 |12|        |         |         |
 
 Please note that every addition/modification of the chosen data pool will have to be discussed with the task leaders (@VishuKalier2003 and @CaterinaBi).
+
+[^1] This link contains 44 text datasets for English. It will need numerous people working on it.
