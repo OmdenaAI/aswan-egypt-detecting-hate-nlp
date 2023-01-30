@@ -11,9 +11,9 @@ Note : Please Follow the below guidelines to create task folders
 
 | Task No| Task Name | Details |
 |-|-|-|
-|1|         |         |
-|2|         |         |
-|3|         |         |
-|4|         |         |
-|5|         |         |
-|6|         |         |
+|1| Data Pre-Processing |         |
+|2| Exploratory Data Analysis (EDA) |         |
+|3| Feature Engineering |         |
+|4| Model Development |         |
+|5| Model Evaluation |         |
+|6| Model Deployment |         |
