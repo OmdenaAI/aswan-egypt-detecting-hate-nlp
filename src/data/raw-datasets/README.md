@@ -10,7 +10,7 @@ The table below lists the datasets chosen for our project, their location, and t
 |-|-|-|-|
 |1| HateXplain| [https://github.com/hate-alert/HateXplain](https://github.com/hate-alert/HateXplain) |         |
 |2|         |         |         |
-|3|         |         |         |
+|3| measuring-hate-speech | [https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech](https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech) | Ameya Chaudhari |
 |4|         |         |         |
 |5|         |         |         |
 |6|         |         |         |
