@@ -23,4 +23,53 @@ The table below lists the datasets chosen for our project, their location, and t
 
 Please note that every addition/modification of the chosen data pool will have to be discussed with the task leaders (@VishuKalier2003 and @CaterinaBi).
 
-[^1] This link contains 44 text datasets for English. It will need numerous people working on it.
+# 44 Datasets
+
+This is the breakdown of the '44 Datasets' from the table above ([4]).
+
+| Dataset | Dataset Name | Link | Assigned to |
+|-|-|-|-|
+|1|         |         |         |
+|2|         |         |         |
+|3|         |         |         |
+|4|         |         |         |
+|5|         |         |         |
+|6|         |         |         |
+|7|         |         |         |
+|8|         |         |         |
+|9|         |         |         |
+|10|        |         |         |
+|11|         |         |         |
+|12|         |         |         |
+|13|         |         |         |
+|14|         |         |         |
+|15|         |         |         |
+|16|         |         |         |
+|17|         |         |         |
+|18|         |         |         |
+|19|         |         |         |
+|20|        |         |         |
+|21|         |         |         |
+|22|         |         |         |
+|23|         |         |         |
+|24|         |         |         |
+|25|         |         |         |
+|26|         |         |         |
+|27|         |         |         |
+|28|         |         |         |
+|29|         |         |         |
+|30|        |         |         |
+|31|         |         |         |
+|32|         |         |         |
+|33|         |         |         |
+|34|         |         |         |
+|35|         |         |         |
+|36|         |         |         |
+|37|         |         |         |
+|38|         |         |         |
+|39|         |         |         |
+|40|        |         |         |
+|41|         |         |         |
+|42|         |         |         |
+|43|         |         |         |
+|44|         |         |         |
