@@ -8,7 +8,7 @@ The table below lists the datasets chosen for our project, their location, and t
 
 | Dataset | Dataset Name | Link | Assigned to |
 |-|-|-|-|
-|1|         |         |         |
+|1| HateXplain| [https://github.com/hate-alert/HateXplain](https://github.com/hate-alert/HateXplain) |         |
 |2|         |         |         |
 |3|         |         |         |
 |4|         |         |         |
@@ -18,5 +18,7 @@ The table below lists the datasets chosen for our project, their location, and t
 |8|         |         |         |
 |9|         |         |         |
 |10|        |         |         |
+|11|        |         |         |
+|12|        |         |         |
 
 Please note that every addition/modification of the chosen data pool will have to be discussed with the task leaders (@VishuKalier2003 and @CaterinaBi).
