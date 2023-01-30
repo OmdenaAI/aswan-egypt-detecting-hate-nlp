@@ -15,7 +15,8 @@ The table below lists the datasets chosen for our project, their location, and t
 |5|         |         |         |
 |6|         |         |         |
 |7|         |         |         |
-|8|         |         |         |
+|8| hate_speech_offensive | [https://huggingface.co/datasets/hate_speech_offensive][https://huggingface.co/datasets/hate_speech_offensive) |Ameya Chaudhari
+|
 |9|         |         |         |
 |10|        |         |         |
 |11|        |         |         |
