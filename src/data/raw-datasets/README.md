@@ -13,13 +13,13 @@ The table below lists the datasets chosen for our project, their location, and t
 |3| measuring-hate-speech | [https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech](https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech) | Ameya Chaudhari |
 |4| Datasets | [https://paperswithcode.com/datasets?q=Hate+Speech&v=lst&o=match&mod=texts&lang=english](https://paperswithcode.com/datasets?q=Hate+Speech&v=lst&o=match&mod=texts&lang=english) | Repeats already used datasets. Do not use for English. See below for Arabic. |
 |5| hate-speech-dataset | [https://github.com/Vicomtech/hate-speech-dataset](https://github.com/Vicomtech/hate-speech-dataset) | Numerous datasets, see "hate-speech-dataset" for details and assignments. |
-|6|         |         |         |
-|7|         |         |         |
+|6| hatespeechdata | [https://hatespeechdata.com/](https://hatespeechdata.com/) |         |
+|7| Dynamically Generated Hate Speech | [https://www.kaggle.com/datasets/usharengaraju/dynamically-generated-hate-speech-dataset](https://www.kaggle.com/datasets/usharengaraju/dynamically-generated-hate-speech-dataset) |         |
 |8| hate_speech_offensive | [https://huggingface.co/datasets/hate_speech_offensive](https://huggingface.co/datasets/hate_speech_offensive) | Ameya Chaudhari |
-|9|         |         |         |
-|10|        |         |         |
-|11| Twitter Tweets Sentiment | [https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset) | Ameya Chaudhari |
-|12|        |         |         |
+|9| YouTube toxic comments | [https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data](https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data) |         |
+|10| Twittet Tweets Sentiment | [https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset) | Ameya Chaudhari        |         |
+|11| Malignant Comment Classification | [[https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/surekharamireddy/malignant-comment-classification)]([https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/surekharamireddy/malignant-comment-classification)) | Ameya Chaudhari |
+|12| measuring hate speech | [https://www.kaggle.com/datasets/mobassir/measuring-hate-speech](https://www.kaggle.com/datasets/mobassir/measuring-hate-speech) |         |
 
 Please note that every addition/modification of the chosen data pool will have to be discussed with the task leaders (@VishuKalier2003 and @CaterinaBi).
 
