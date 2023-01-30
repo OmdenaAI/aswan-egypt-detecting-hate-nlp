@@ -6,6 +6,17 @@ The table below lists the datasets chosen for our project, their location, and t
 
 ## Chosen Datasets
 
+| Dataset | Dataset Name | Link | Assigned to |
+|-|-|-|-|
+|1|         |         |         |
+|2|         |         |         |
+|3|         |         |         |
+|4|         |         |         |
+|5|         |         |         |
+|6|         |         |         |
+|7|         |         |         |
+|8|         |         |         |
+|9|         |         |         |
+|10|        |         |         |
 
-
-Please note that every addition/modification of the chosen data pool will have to be discussed with the task leaders.
+Please note that every addition/modification of the chosen data pool will have to be discussed with the task leaders (@VishuKalier2003 and @CaterinaBi).
