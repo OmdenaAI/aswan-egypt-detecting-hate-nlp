@@ -40,7 +40,7 @@ This is the breakdown of the 'Datasets' from the table above ([5]).
 |9| CONAN | [https://github.com/marcoguerini/CONAN](https://github.com/marcoguerini/CONAN) |         |
 |10| slur-corpus | [https://github.com/networkdynamics/slur-corpus](https://github.com/networkdynamics/slur-corpus) |         |
 |11| The GabHate corpus | [https://osf.io/edua3/](https://osf.io/edua3/) |         |
-|12| IberEval 2018 | [https://amiibereval2018.wordpress.com/im nt-dates/data/](https://amiibereval2018.wordpress.com/im nt-dates/data/) |         |
+|12| IberEval 2018 | [https://amiibereval2018.wordpress.com/imnt-dates/data/](https://amiibereval2018.wordpress.com/imnt-dates/data/) |         |
 |13| HatefulUsersTwitter | [https://github.com/manoelhortaribeiro/HatefulUsersTwitter](https://github.com/manoelhortaribeiro/HatefulUsersTwitter) |         |
 |14| Online hate speech (Gab) | [https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech](https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech) |         |
 |15| Online hate speech (Reddit) | [https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech](https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech) |         |
