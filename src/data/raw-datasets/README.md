@@ -47,7 +47,7 @@ This is the breakdown of the 'Datasets' from the table above ([5]).
 |16| MLMA | [https://github.com/HKUST-KnowComp/MLMA_hate_speech](https://github.com/HKUST-KnowComp/MLMA_hate_speech) |         |
 |17| hatEval | [http://competitions.codalab.org/competitions/19935](http://competitions.codalab.org/competitions/19935) |         |
 |18| ETHOS | [https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset](https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset) |         |
-|19| Twitter Sentiment Analysis | [https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech](https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech) |         |
+|19| Twitter Sentiment Analysis | [https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech](https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech) |  Rubaiyat Islam       |
 
 # Raw Data (Multilingual Datasets containing Arabic)
 
