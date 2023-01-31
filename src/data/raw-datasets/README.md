@@ -12,8 +12,8 @@ The table below lists the datasets chosen for our project, their location, and t
 |2| Toxic Comment Classification Challenge | [https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data) | Hyacinth Ampadu |
 |3| measuring-hate-speech | [https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech](https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech) | Ameya Chaudhari |
 |4| Datasets | [https://paperswithcode.com/datasets?q=Hate+Speech&v=lst&o=match&mod=texts&lang=english](https://paperswithcode.com/datasets?q=Hate+Speech&v=lst&o=match&mod=texts&lang=english) | Repeats already used datasets. Do not use for English. See below for Arabic. |
-|5| hate-speech-dataset | [https://github.com/Vicomtech/hate-speech-dataset](https://github.com/Vicomtech/hate-speech-dataset) | Numerous datasets, see "hate-speech-dataset" for details and assignments. |
-|6| hatespeechdata | [https://hatespeechdata.com/](https://hatespeechdata.com/) |         |
+|5| hate-speech-dataset | [https://github.com/Vicomtech/hate-speech-dataset](https://github.com/Vicomtech/hate-speech-dataset) |  |
+|6| hatespeechdata | [https://hatespeechdata.com/](https://hatespeechdata.com/) | Numerous datasets, see "hate-speech-dataset" for details and assignments. |
 |7| Dynamically Generated Hate Speech | [https://www.kaggle.com/datasets/usharengaraju/dynamically-generated-hate-speech-dataset](https://www.kaggle.com/datasets/usharengaraju/dynamically-generated-hate-speech-dataset) |         |
 |8| hate_speech_offensive | [https://huggingface.co/datasets/hate_speech_offensive](https://huggingface.co/datasets/hate_speech_offensive) | Ameya Chaudhari |
 |9| YouTube toxic comments | [https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data](https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data) | Astha Tripathi |
