@@ -4,7 +4,7 @@ This folder will contain all clean datasets.
 
 Please create a folder for each clean dataset and name it following the repository's naming conventions. Name the dataset file with their name as indicated in the raw datasets' table. Feel free to add a README.md with details on the dataset and yourself. 
 
-Those unsure about how to use GitHub and/or unwilling to modify the repository structure can simply send their clean datasets to @CaterinaBi on Slack.
+> In case of doubt, please do not hesitate to be in contact with the task leaders. Those unsure about how to use GitHub and/or unwilling to modify the repository structure can simply share their clean datasets with the task leaders on Slack.
 
 ## Pre-processing guidelines
 
@@ -43,5 +43,5 @@ Please do NOT change the case of your sentences as the distinction between lower
 
 The pre-processing for the 'clean_sentence_EDA' will involve all the steps above, *plus the deletion of all emojis* (if present).
 
-> In case of doubt, please do not hesitate to be in contact with the task leaders.
+
 
