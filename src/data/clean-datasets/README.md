@@ -14,7 +14,7 @@ The output of the pre-processing has to be a .cvs file. Please create one file f
 
 The file will be organised in 5 columns as follows:
 
- | corpus_name | raw_sentence | label | clean_sentence_EDA | clean_sentence_training |
+ | corpus_name | raw_sentence | label | clean_sentence_training | clean_sentence_EDA |
   |-|-|-|-|-|
  | | | | | |
  | | | | | |
@@ -42,4 +42,6 @@ The pre-processing for the 'clean_sentence_training' column will involve the fol
 Please do NOT change the case of your sentences as the distinction between lowercase and uppercase can be meaningful in this context.
 
 The pre-processing for the 'clean_sentence_EDA' will involve all the steps above, *plus the deletion of all emojis* (if present).
+
+> In case of doubt, please do not hesitate to be in contact with the task leaders.
 
