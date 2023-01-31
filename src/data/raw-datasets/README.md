@@ -18,7 +18,7 @@ The table below lists the datasets chosen for our project, their location, and t
 |8| hate_speech_offensive | [https://huggingface.co/datasets/hate_speech_offensive](https://huggingface.co/datasets/hate_speech_offensive) | Ameya Chaudhari |
 |9| YouTube toxic comments | [https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data](https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data) |         |
 |10| Twittet Tweets Sentiment | [https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset) | Ameya Chaudhari        |         |
-|11| Malignant Comment Classification | [[https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/surekharamireddy/malignant-comment-classification)]([https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/surekharamireddy/malignant-comment-classification)) | Ameya Chaudhari |
+|11| Malignant Comment Classification | [[https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/surekharamireddy/malignant-comment-classification)]([https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/surekharamireddy/malignant-comment-classification)) |  |
 |12| measuring hate speech | [https://www.kaggle.com/datasets/mobassir/measuring-hate-speech](https://www.kaggle.com/datasets/mobassir/measuring-hate-speech) |         |
 
 Please note that every addition/modification of the chosen data pool will have to be discussed with the task leaders (@VishuKalier2003 and @CaterinaBi).
