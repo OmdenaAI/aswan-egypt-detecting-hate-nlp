@@ -10,7 +10,10 @@ Those unsure about how to use GitHub and/or unwilling to modify the repository s
 
 The output of the pre-processing has to be a .cvs file. Please create one file for each dataset.
 
-The file will be organised as follows:
+The file will be organised in 5 columns as follows:
 
  | corpus_name | raw_sentence | label | clean_sentence_EDA | clean_sentence_training |
   |-|-|-|-|-|
+ | | | | | |
+  
+ Please respect the column order and naming.
