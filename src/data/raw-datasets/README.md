@@ -36,7 +36,7 @@ This is the breakdown of the 'Datasets' from the table above ([5]).
 |5| Abusive Swearing | [https://github.com/dadangewp/SWAD-Repository](https://github.com/dadangewp/SWAD-Repository) |         |
 |6| MultiOFF | [https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text](https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text) |         |
 |7| HateEmoji | [https://github.com/HannahKirk/Hatemoji](https://github.com/HannahKirk/Hatemoji) |         |
-|8| Hate Check | [https://github.com/paul-rottger/hatecheck-data](https://github.com/paul-rottger/hatecheck-data) |         |
+|8| Hate Check | [https://github.com/paul-rottger/hatecheck-data](https://github.com/paul-rottger/hatecheck-data) | Caterina Bonan |
 |9| CONAN | [https://github.com/marcoguerini/CONAN](https://github.com/marcoguerini/CONAN) |         |
 |10| slur-corpus | [https://github.com/networkdynamics/slur-corpus](https://github.com/networkdynamics/slur-corpus) |         |
 |11| The GabHate corpus | [https://osf.io/edua3/](https://osf.io/edua3/) |         |
