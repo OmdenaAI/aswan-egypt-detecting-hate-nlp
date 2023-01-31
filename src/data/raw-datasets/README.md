@@ -8,7 +8,7 @@ The table below lists the datasets chosen for our project, their location, and t
 
 | Dataset | Dataset Name | Link | Assigned to |
 |-|-|-|-|
-|1| HateXplain| [https://github.com/hate-alert/HateXplain](https://github.com/hate-alert/HateXplain) |         |
+|1| HateXplain| [https://github.com/hate-alert/HateXplain](https://github.com/hate-alert/HateXplain) | Etendra Verma |
 |2| Toxic Comment Classification Challenge | [https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data) | Hyacinth Ampadu |
 |3| measuring-hate-speech | [https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech](https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech) | Ameya Chaudhari |
 |4| Datasets | [https://paperswithcode.com/datasets?q=Hate+Speech&v=lst&o=match&mod=texts&lang=english](https://paperswithcode.com/datasets?q=Hate+Speech&v=lst&o=match&mod=texts&lang=english) | Repeats already used datasets. Do not use for English. See below for Arabic. |
