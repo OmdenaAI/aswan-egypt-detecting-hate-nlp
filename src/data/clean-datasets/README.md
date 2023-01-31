@@ -19,7 +19,7 @@ The file will be organised in 5 columns as follows:
  | | | | | |
  | | | | | |
   
- Please respect the column order and naming.
+ Please respect the column order and naming. For the corpus name, please use the same label you use as a name for your directory (e.g., HateXplain).
  
  ### Labels
  
@@ -30,4 +30,16 @@ The file will be organised in 5 columns as follows:
 If your dataset contains labels diffent from 'hateful' and 'non hateful' (e.g., 'abusive'), please *keep the original labels*.
 
 ### Preprocessing
+
+The pre-processing for the 'clean_sentence_training' column will involve the following steps:
+
+1- delete all rows containing null values;
+
+2- stopwords removal;
+
+3- lemmatization (no NOT perform stemming at it can yield undesirable results);
+
+Please do NOT change the case of your sentences as the distinction between lowercase and uppercase can be meaningful in this context.
+
+The pre-processing for the 'clean_sentence_EDA' will involve all the steps above, *plus the deletion of all emojis* (if present).
 
