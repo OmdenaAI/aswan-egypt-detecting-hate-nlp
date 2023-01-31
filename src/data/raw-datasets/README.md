@@ -29,8 +29,8 @@ This is the breakdown of the 'Datasets' from the table above ([5]).
 
 | Dataset | Dataset Name | Link | Assigned to |
 |-|-|-|-|
-|1| ConvAbuse | [https://github.com/amandacurry/convabuse](https://github.com/amandacurry/convabuse) |         |
-|2| Call Me Sexist | [https://search.gesis.org/research_data/SDN-10.7802-2251?doi=10.7802/2251](https://search.gesis.org/research_data/SDN-10.7802-2251?doi=10.7802/2251) |         |
+|1| ConvAbuse | [https://github.com/amandacurry/convabuse](https://github.com/amandacurry/convabuse) | Caterina Bonan |
+|2| Call Me Sexist | [https://search.gesis.org/research_data/SDN-10.7802-2251?doi=10.7802/2251](https://search.gesis.org/research_data/SDN-10.7802-2251?doi=10.7802/2251) | Caterina Bonan |
 |3| Elections | [https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/stance-hof/](https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/stance-hof/) |         |
 |4| AbuseEval v1.0 | [https://github.com/tommasoc80/AbuseEval](https://github.com/tommasoc80/AbuseEval) |         |
 |5| Abusive Swearing | [https://github.com/dadangewp/SWAD-Repository](https://github.com/dadangewp/SWAD-Repository) |         |
