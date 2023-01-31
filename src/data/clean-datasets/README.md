@@ -23,11 +23,14 @@ The file will be organised in 5 columns as follows:
  
  ### Labels
  
+ > Please note that the labels have changed!
+ 
  The labels will be:
- - '1' for hateful sentences;
- - '2' for non hateful sentences.
+ - '2' for RISKY sentences (eg., 'hateful' or 'abusive');
+ - '1' for POTENTIALLY RISKY sentences (e.g., 'offensive)';
+ - '0' for NON RISKY sentences.
 
-If your dataset contains labels diffent from 'hateful' and 'non hateful' (e.g., 'abusive'), please *keep the original labels*.
+We leave to the collaborators the task to determine how to fit the original labels in the three classes above. Please contact the task leaders if unsure about the classification. We'll be most happy to help you decide how to re-label your dataset.
 
 ### Preprocessing
 
