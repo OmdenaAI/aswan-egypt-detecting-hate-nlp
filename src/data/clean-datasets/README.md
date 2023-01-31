@@ -13,4 +13,4 @@ The output of the pre-processing has to be a .cvs file. Please create one file f
 The file will be organised as follows:
 
  | corpus_name | raw_sentence | label | clean_sentence_EDA | clean_sentence_training |
-  |_ |_ |_ |_ |_ |
+  |-|-|-|-|-|
