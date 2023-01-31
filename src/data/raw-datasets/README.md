@@ -19,7 +19,7 @@ The table below lists the datasets chosen for our project, their location, and t
 |9| YouTube toxic comments | [https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data](https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data) | Astha Tripathi |
 |10| Twittet Tweets Sentiment | [https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset) | Ameya Chaudhari        |         |
 |11| Malignant Comment Classification | [https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/surekharamireddy/malignant-comment-classification) | Vishu Kalier  |
-|12| measuring hate speech | [https://www.kaggle.com/datasets/mobassir/measuring-hate-speech](https://www.kaggle.com/datasets/mobassir/measuring-hate-speech) |         |
+|12| measuring hate speech | [https://www.kaggle.com/datasets/mobassir/measuring-hate-speech](https://www.kaggle.com/datasets/mobassir/measuring-hate-speech) | Disregard. Combines datasets that are already being pre-processed. |
 
 Please note that every addition/modification of the chosen data pool will have to be discussed with the task leaders (@VishuKalier2003 and @CaterinaBi).
 
