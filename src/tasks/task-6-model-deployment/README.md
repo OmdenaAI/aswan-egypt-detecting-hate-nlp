@@ -12,7 +12,7 @@ Add rows if necessary.
 
 | Activity | Activity Name | Author Name | Details |
 |-|-|-|-|
-|1|         |         |         |
+|1| Create Basic Flask Server | inampaki | The basic scaffold of the project has been created.| 
 |2|         |         |         |
 |3|         |         |         |
 |4|         |         |         |
