@@ -8,13 +8,8 @@ Please create a folder for each clean dataset and name it following the reposito
 
 ## Clean Datasets
 
-| Dataset | Dataset Name | Link | Assigned to | Status  | 
-|-|-|-|-|-| 
-|2| Toxic Comment Classification Challenge | [https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data) | Hyacinth Ampadu | completed | 
-|3| measuring-hate-speech | [https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech](https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech) | Ameya Chaudhari |  |      |  | 
-|8| hate_speech_offensive | [https://huggingface.co/datasets/hate_speech_offensive](https://huggingface.co/datasets/hate_speech_offensive) | Ameya Chaudhari |  | 
-|10| Twittet Tweets Sentiment | [https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset) | Ameya Chaudhari        |         |  
-|11 | (https://www.kaggle.com/datasets/surekharamireddy/malignant-comment-classification) | Vishu Kalier  | completed | 
+| Dataset Name | Link | Engineer |
+|-|-|-|
 
 ________________________________________________________________
 
