@@ -9,7 +9,7 @@ The datasets can be found in the dedicated directories within this directory.
 Resources for those interested in working on Arabic.
 
 | Dataset | Dataset Name | Assigned to | Status  | 
-|-|-|-|-|-| 
+|-|-|-|-|
 |1| ar_dataset | Rana Maher | in progress | 
 |2| arabic_toxicity |        |  |
 |3| arbml_dataset |         |  |
