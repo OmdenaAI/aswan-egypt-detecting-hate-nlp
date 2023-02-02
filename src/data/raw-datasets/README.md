@@ -10,14 +10,14 @@ The table below lists the datasets chosen for our project, their location, and t
 |-|-|-|-|-| 
 |1| HateXplain| [https://github.com/hate-alert/HateXplain](https://github.com/hate-alert/HateXplain) | Etendra Verma |  | 
 |2| Toxic Comment Classification Challenge | [https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data) | Hyacinth Ampadu | completed | 
-|3| measuring-hate-speech | [https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech](https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech) | Ameya Chaudhari |  | 
+|3| measuring-hate-speech | [https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech](https://huggingface.co/datasets/ucberkeley-dlab/measuring-hate-speech) | Ameya Chaudhari | completed | 
 |4| Datasets | [https://paperswithcode.com/datasets?q=Hate+Speech&v=lst&o=match&mod=texts&lang=english](https://paperswithcode.com/datasets?q=Hate+Speech&v=lst&o=match&mod=texts&lang=english) | Repeats already used datasets. Do not use for English. See below for Arabic. | N/A | 
 |5| hate-speech-dataset | [https://github.com/Vicomtech/hate-speech-dataset](https://github.com/Vicomtech/hate-speech-dataset) |  |  | 
 |6| hatespeechdata | [https://hatespeechdata.com/](https://hatespeechdata.com/) | Numerous datasets, see "hate-speech-dataset" for details and assignments. | N/A | 
 |7| Dynamically Generated Hate Speech | [https://www.kaggle.com/datasets/usharengaraju/dynamically-generated-hate-speech-dataset](https://www.kaggle.com/datasets/usharengaraju/dynamically-generated-hate-speech-dataset) |   Merabet Asma |  | 
-|8| hate_speech_offensive | [https://huggingface.co/datasets/hate_speech_offensive](https://huggingface.co/datasets/hate_speech_offensive) | Ameya Chaudhari |  | 
+|8| hate_speech_offensive | [https://huggingface.co/datasets/hate_speech_offensive](https://huggingface.co/datasets/hate_speech_offensive) | Ameya Chaudhari | completed | 
 |9| YouTube toxic comments | [https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data](https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data) | Astha Tripathi |  | 
-|10| Twittet Tweets Sentiment | [https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset) | Ameya Chaudhari        |         |  | 
+|10| Twittet Tweets Sentiment | [https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset) | Ameya Chaudhari        |         | completed | 
 |11| Malignant Comment Classification | [https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/surekharamireddy/malignant-comment-classification) | Vishu Kalier  | completed | 
 |12| measuring hate speech | [https://www.kaggle.com/datasets/mobassir/measuring-hate-speech](https://www.kaggle.com/datasets/mobassir/measuring-hate-speech) | Disregard. Combines datasets that are already being pre-processed. | N/A | 
 |13| Curated Dataset - Mendeley  | [https://data.mendeley.com/datasets/9sxpkmm8xn](https://data.mendeley.com/datasets/9sxpkmm8xn) | Muthukumaran Manickavasagam | WIP | 
