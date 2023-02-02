@@ -44,22 +44,9 @@ This is the breakdown of the 'Datasets' from the table above ([5]).
 |11| The GabHate corpus | [https://osf.io/edua3/](https://osf.io/edua3/) |         |  |
 |12| IberEval 2018 | [https://amiibereval2018.wordpress.com/imnt-dates/data/](https://amiibereval2018.wordpress.com/imnt-dates/data/) |         |  |
 |13| HatefulUsersTwitter | [https://github.com/manoelhortaribeiro/HatefulUsersTwitter](https://github.com/manoelhortaribeiro/HatefulUsersTwitter) | Aya Abdalsalam  | in progress |
-|14| Online hate speech (Gab) | [https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech](https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech) |    Rana Maher     | in progress  |
+|14| Online hate speech (Gab) | [https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech](https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech) |        |   |
 |15| Online hate speech (Reddit) | [https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech](https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech) |         |  |
 |16| MLMA | [https://github.com/HKUST-KnowComp/MLMA_hate_speech](https://github.com/HKUST-KnowComp/MLMA_hate_speech) |         |  |
 |17| hatEval | [http://competitions.codalab.org/competitions/19935](http://competitions.codalab.org/competitions/19935) |         |  |
 |18| ETHOS | [https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset](https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset) |         |  |
 |19| Twitter Sentiment Analysis | [https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech](https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech) |  Rubaiyat Islam       |  |
-
-# Raw Data (Multilingual Datasets containing Arabic)
-
-Resources for those interested in working on Arabic.
-
-| Dataset | Dataset Name | Link | Assigned to | Status  | 
-|-|-|-|-|-| 
-|1| AraCOVID19-MFH | [https://paperswithcode.com/dataset/aracovid19-mfh](https://paperswithcode.com/dataset/aracovid19-mfh) |         |  | 
-|2| CVSS | [https://paperswithcode.com/dataset/cvss](https://paperswithcode.com/dataset/cvss) |         |  |
-|3| CoVoST | [https://paperswithcode.com/dataset/covost](https://paperswithcode.com/dataset/covost) |         |  |
-|4| Universal Dependencies | [https://paperswithcode.com/dataset/universal-dependencies](https://paperswithcode.com/dataset/universal-dependencies) |         |  |
-|5| MuST-C | [https://paperswithcode.com/dataset/must-c](https://paperswithcode.com/dataset/must-c) |         |  |
-|6| OntoNotes 5.0 | [https://paperswithcode.com/dataset/ontonotes-5-0](https://paperswithcode.com/dataset/ontonotes-5-0) |         |  |
