@@ -29,28 +29,28 @@ Please note that every addition/modification of the chosen data pool will have t
 
 This is the breakdown of the 'Datasets' from the table above ([5]).
 
-| Dataset | Dataset Name | Link | Assigned to |
-|-|-|-|-|
-|1| ConvAbuse | [https://github.com/amandacurry/convabuse](https://github.com/amandacurry/convabuse) | Caterina Bonan |
-|2| Call Me Sexist | [https://search.gesis.org/research_data/SDN-10.7802-2251?doi=10.7802/2251](https://search.gesis.org/research_data/SDN-10.7802-2251?doi=10.7802/2251) | Caterina Bonan |
-|3| Elections | [https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/stance-hof/](https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/stance-hof/) |         |
-|4| AbuseEval v1.0 | [https://github.com/tommasoc80/AbuseEval](https://github.com/tommasoc80/AbuseEval) |         |
-|5| Abusive Swearing | [https://github.com/dadangewp/SWAD-Repository](https://github.com/dadangewp/SWAD-Repository) |         |
-|6| MultiOFF | [https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text](https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text) |         |
-|7| HateEmoji | [https://github.com/HannahKirk/Hatemoji](https://github.com/HannahKirk/Hatemoji) |         |
-|8| Hate Check | [https://github.com/paul-rottger/hatecheck-data](https://github.com/paul-rottger/hatecheck-data) | Caterina Bonan |
-|9| CONAN | [https://github.com/marcoguerini/CONAN](https://github.com/marcoguerini/CONAN) |         |
-|10| slur-corpus | [https://github.com/networkdynamics/slur-corpus](https://github.com/networkdynamics/slur-corpus) |         |
-|11| The GabHate corpus | [https://osf.io/edua3/](https://osf.io/edua3/) |         |
-|12| IberEval 2018 | [https://amiibereval2018.wordpress.com/imnt-dates/data/](https://amiibereval2018.wordpress.com/imnt-dates/data/) |         |
-|13| HatefulUsersTwitter | [https://github.com/manoelhortaribeiro/HatefulUsersTwitter](https://github.com/manoelhortaribeiro/HatefulUsersTwitter) | Aya Abdalsalam
-       |
-|14| Online hate speech (Gab) | [https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech](https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech) |         |
-|15| Online hate speech (Reddit) | [https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech](https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech) |         |
-|16| MLMA | [https://github.com/HKUST-KnowComp/MLMA_hate_speech](https://github.com/HKUST-KnowComp/MLMA_hate_speech) |         |
-|17| hatEval | [http://competitions.codalab.org/competitions/19935](http://competitions.codalab.org/competitions/19935) |         |
-|18| ETHOS | [https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset](https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset) |         |
-|19| Twitter Sentiment Analysis | [https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech](https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech) |  Rubaiyat Islam       |
+| Dataset | Dataset Name | Link | Assigned to | Status   |
+|-|-|-|-|-|
+|1| ConvAbuse | [https://github.com/amandacurry/convabuse](https://github.com/amandacurry/convabuse) | Caterina Bonan | in progress |
+|2| Call Me Sexist | [https://search.gesis.org/research_data/SDN-10.7802-2251?doi=10.7802/2251](https://search.gesis.org/research_data/SDN-10.7802-2251?doi=10.7802/2251) | Caterina Bonan | in progress |
+|3| Elections | [https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/stance-hof/](https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/stance-hof/) |         |  |
+|4| AbuseEval v1.0 | [https://github.com/tommasoc80/AbuseEval](https://github.com/tommasoc80/AbuseEval) |         |  |
+|5| Abusive Swearing | [https://github.com/dadangewp/SWAD-Repository](https://github.com/dadangewp/SWAD-Repository) |         |  |
+|6| MultiOFF | [https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text](https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text) |         |  |
+|7| HateEmoji | [https://github.com/HannahKirk/Hatemoji](https://github.com/HannahKirk/Hatemoji) |         |  |
+|8| Hate Check | [https://github.com/paul-rottger/hatecheck-data](https://github.com/paul-rottger/hatecheck-data) | Caterina Bonan | in progress |
+|9| CONAN | [https://github.com/marcoguerini/CONAN](https://github.com/marcoguerini/CONAN) |         |  |
+|10| slur-corpus | [https://github.com/networkdynamics/slur-corpus](https://github.com/networkdynamics/slur-corpus) |         |  |
+|11| The GabHate corpus | [https://osf.io/edua3/](https://osf.io/edua3/) |         |  |
+|12| IberEval 2018 | [https://amiibereval2018.wordpress.com/imnt-dates/data/](https://amiibereval2018.wordpress.com/imnt-dates/data/) |         |  |
+|13| HatefulUsersTwitter | [https://github.com/manoelhortaribeiro/HatefulUsersTwitter](https://github.com/manoelhortaribeiro/HatefulUsersTwitter) | Aya Abdalsalam  |
+    in progress   |
+|14| Online hate speech (Gab) | [https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech](https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech) |         |  |
+|15| Online hate speech (Reddit) | [https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech](https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech) |         |  |
+|16| MLMA | [https://github.com/HKUST-KnowComp/MLMA_hate_speech](https://github.com/HKUST-KnowComp/MLMA_hate_speech) |         |  |
+|17| hatEval | [http://competitions.codalab.org/competitions/19935](http://competitions.codalab.org/competitions/19935) |         |  |
+|18| ETHOS | [https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset](https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset) |         |  |
+|19| Twitter Sentiment Analysis | [https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech](https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech) |  Rubaiyat Islam       |  |
 
 # Raw Data (Multilingual Datasets containing Arabic)
 
