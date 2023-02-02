@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>detecting hate nlp</title>
+      <link rel="stylesheet" href="admin.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body style="background-color: gray;">
+      <!-- <h1>Aswan Egypt Detecting hate using NLP</h1> -->
+      <div class="container">
+        <div class="top-container rounded-4 bg-light">
+          <button class="btn btn-md btn-primary ">Export</button>
+          <div class="date-container row">
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                <label for="start-date">Start Date :</label>
+                <input id="start-date" name="start-date" type="date">
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 col-sm-12 start-date" >
+              <label for="start-date">End Date :</label>
+              <input id="start-date" name="start-date" type="date">
+            </div>
+          </div>
+        </div>
+        <div class="content-container rounded-4 bg-light ">
+
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum in deleniti culpa quaerat at, voluptatum magni deserunt itaque sequi, cumque reiciendis quibusdam? Repellendus pariatur dolore sed alias est, unde ipsam Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum in deleniti culpa quaerat at, voluptatum magni deserunt itaque sequi, cumque reiciendis quibusdam? Repellendus pariatur dolore sed alias est, unde ipsam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum in deleniti culpa quaerat at, voluptatum magni deserunt itaque sequi, cumque reiciendis quibusdam? Repellendus pariatur dolore sed alias est, unde ipsam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum in deleniti culpa quaerat at, voluptatum magni deserunt itaque sequi, cumque reiciendis quibusdam? Repellendus pariatur dolore sed alias est, unde ipsam.</p>
+
+
+<!-- Modal Container -->
+          
+<div class="modal-container ">
+
+            
+  <div class="model-container">
+      <button type="button" class="btn btn-primary models_btn" data-bs-toggle="modal" data-bs-target="#Model"> Models </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="Model" tabindex="-1" aria-labelledby="Model" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="Model"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+
+                  <table border="1"  cellspacing="0">
+                      <th>Model</th>
+                      <th>Upploaded By</th>
+                      <th>Uploaded On</th>
+                      <th>Activate</th>
+                      <tr>
+                        <td>XYX</td>
+                        <td>ABC</td>
+                        <td>2/dec/2020</td>
+                        <td><button class="btn btn-sm btn-outline-light btn-success">Activate</button></td>
+                      </tr>
+                      <tr>
+                          <td>XYX</td>
+                          <td>ABC</td>
+                          <td>2/dec/2020</td>
+                          <td><button class="btn btn-sm btn-outline-light btn-success">Activate</button></td>
+                      </tr>
+                        <tr>
+                          <td>XYX</td>
+                          <td>ABC</td>
+                          <td>2/dec/2020</td>
+                          <td><button class="btn btn-sm btn-outline-light btn-success">Activate</button></td>
+                      </tr>
+                        <tr>
+                          <td>XYX</td>
+                          <td>ABC</td>
+                          <td>2/dec/2020</td>
+                          <td><button class="btn btn-sm btn-outline-light btn-success">Activate</button></td>
+                      </tr>
+                    </table>
+                  
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+  </div>
+  
+
+
+  <!-- Upload Modal -->
+  
+  
+  <div class="upload-model-container">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#file-model"> Upload Models </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="file-model" tabindex="-1" aria-labelledby="file-model" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="file-model">Upload a new Model</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+       
+                  <form id="upload-form">
+                      <input type="file" id="zip-file" accept=".zip">
+                     <button type="button"class="btn btn-primary" href="#error-model"  id="uploadFile">Upload</button> 
+                    </form>
+              
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+  </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Error Modal -->
+
+<div class="error-model-container" id="error-model">
+  <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#zip-error">Error Message </button> -->
+
+    <div class="modal fade" id="zip-error" tabindex="-1" aria-labelledby="zip-error" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="zip-error">File Not Uploaded</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+   
+             <p>Only .zip files are allowed</p>
+
+             <p>Please Upload a .zip File</p>
+          
+          </div>
+     
+        </div>
+      </div>
+    </div>
+
+</div>
+
+        </div>
+      </div>
+    </body>
+    <script src="admin.js"></script>
+</html>

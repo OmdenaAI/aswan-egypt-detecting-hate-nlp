@@ -1,11 +1,377 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>detecting hate nlp</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <h1>Aswan Egypt Detecting hate using NLP</h1>
-    </body>
+
+<head>
+    <title>detecting hate nlp</title>
+    <script src="https://kit.fontawesome.com/ecf6a77b25.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <style>
+        body {
+            background-color: gray;
+        }
+        .forget{
+            margin-left: 35%;
+        }
+        .hateful {
+            color: red;
+        }
+
+        .risk {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1>Aswan Egypt Detecting hate using NLP</h1> -->
+    <div class="container">
+        <div class="rounded-4 bg-light" style="width: 60rem; margin: 60px;">
+            <div class="d-flex justify-content-end p-2">
+                <div class="px-3">
+                    <button class="btn btn-secondary" data-bs-target="#loginForm" data-bs-toggle="modal">Log In</button>
+                    <div class="modal fade" id="loginForm" aria-hidden="true" aria-labelledby="loginToggleLabel"
+                        tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="loginToggleLabel">Log In</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-lognin bg-white m-3">
+                                        <form>
+                                            <div class="">
+                                                <label for="e-address" class="col-form-label">Email Address</label>
+                                                <input type="email" name="email" class="bg-light form-control"
+                                                    id="e-address" placeholder="Enter Email Address" required>
+                                            </div>
+                                            <div class="">
+                                                <label for="password" class="col-form-label">Password</label>
+                                                <input type="password" name="password"
+                                                    class="bg-light form-control mb-3" id="password"
+                                                    placeholder="Enter Password" required>
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="form-check m-2">
+                                                    <input class="form-check-input" type="checkbox" value=""
+                                                        id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        Remember me
+                                                    </label>
+                                                </div>
+                                                <div class="forget mt-2">
+                                                    <p><a data-bs-toggle="modal" href="#changePasswordForm">Forgot
+                                                            Password?</a></p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <button class="w-100 btn btn-lg btn-primary mt-3 mb-2" id="login-btn"
+                                                    type="submit">Log
+                                                    In</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="changePasswordForm" aria-hidden="true"
+                        aria-labelledby="changeToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-4" id="changeToggleLabel">Forgot Password</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-login bg-white p-2">
+                                        <form>
+                                            <div class="">
+                                                <label for="useremail" class="col-form-label">Email Address</label>
+                                                <input type="email" name="email-address"
+                                                    class="bg-light form-control mb-3" id="useremail" placeholder="Enter Email Address"
+                                                    required>
+                                            </div>
+                                            <div>
+                                                <button class="w-100 btn btn-lg btn-primary mt-2 mb-2" id="login-btn"
+                                                    type="submit">
+                                                    Submit</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#signupForm">
+                        Sign Up
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="signupForm" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="signupLabel">Sign Up</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-signup bg-white p-2 mb-4">
+                                        <form>
+                                            <div class="p-1">
+                                                <label for="firstname" class="col-form-label">First
+                                                    Name</label>
+                                                <input type="text" name="fname" class="bg-light form-control"
+                                                    id="firstname" placeholder="Enter First Name" required
+                                                    autocomplete="off">
+                                            </div>
+                                            <div class="p-1">
+                                                <label for="lastname" class="col-form-label">Last
+                                                    Name</label>
+                                                <input type="text" name="lname" class="bg-light form-control"
+                                                    id="lastname" placeholder="Enter Last Name" required
+                                                    autocomplete="off">
+                                            </div>
+                                            <div class="p-1">
+                                                <label for="e-address" class="col-form-label">Email
+                                                    Address</label>
+                                                <input type="email" name="email" class="bg-light form-control"
+                                                    id="e_address" placeholder="Enter Email Address" required
+                                                    autocomplete="off">
+                                            </div>
+                                            <div class="p-1">
+                                                <label for="gender" class="col-form-label">Gender</label>
+                                                <select class="form-select bg-light" id="gender">
+                                                    <option selected>Select--</option>
+                                                    <option value="male">Male</option>
+                                                    <option value="female">Female</option>
+                                                </select>
+                                            </div>
+                                            <div class="p-1">
+                                                <label for="password" class="col-form-label">Password</label>
+                                                <input type="password" name="password" class="bg-light form-control"
+                                                    id="password" placeholder="Enter Password" required>
+                                            </div>
+                                            <div class="p-1">
+                                                <label for="confirmPassword" class="col-form-label">Confirm
+                                                    Password</label>
+                                                <input type="password" name="password"
+                                                    class="bg-light form-control mb-3" id="cofirmPassword"
+                                                    placeholder="Enter Confirm Password" required>
+                                            </div>
+                                            <button class="w-100 btn btn-lg btn-primary mt-3 mb-2" id="btn"
+                                                type="submit">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <form class="row p-3">
+                    <div class="col-8">
+                        <input type="text" class="form-control" placeholder="Enter" id="textfield" autocomplete="off">
+                    </div>
+                    <div class="col-4">
+                        <button type="submit" class="btn btn-primary" id="check-btn">Check</button>
+                    </div>
+                </form>
+            </div>
+            <div class="ps-3 pb-3">
+                <div class="hateful">
+                    <h4>Hateful</h4>
+                </div>
+                <div class="risk">
+                    <h4>Risky</h4>
+                </div>
+                <div>
+                    <h4>Neutral</h4>
+                </div>
+            </div>
+        </div>
+        <div class=" rounded-4 bg-light p-2" style="width: 60rem; margin: 60px;">
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    <p>Text : If you like it then Thumbs Up anf if you don't like it then thumbs-down</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <h6 class="p-2">Model Prediction</h6>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-4"><i class="fa-solid fa-thumbs-up"
+                                id="likeBtn"></i>(<span class="totalLikes">0</span>)</button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-3"><i class="fa-solid fa-thumbs-down"
+                                id="dislike-Btn"></i>(<span class="totalDislikes">0</span>)</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    <p>Text : If you like it then Thumbs Up anf if you don't like it then thumbs-down</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <h6 class="p-2">Model Prediction</h6>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-4"><i
+                                class="fa-solid fa-thumbs-up"></i></button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-3"><i
+                                class="fa-solid fa-thumbs-down"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    <p>Text : If you like it then Thumbs Up anf if you don't like it then thumbs-down</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <h6 class="p-2">Model Prediction</h6>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-4"><i
+                                class="fa-solid fa-thumbs-up"></i></button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-3"><i
+                                class="fa-solid fa-thumbs-down"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    <p>Text : If you like it then Thumbs Up anf if you don't like it then thumbs-down</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <h6 class="p-2">Model Prediction</h6>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-4"><i
+                                class="fa-solid fa-thumbs-up"></i></button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-3"><i
+                                class="fa-solid fa-thumbs-down"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    <p>Text : If you like it then Thumbs Up anf if you don't like it then thumbs-down</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <h6 class="p-2">Model Prediction</h6>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-4"><i
+                                class="fa-solid fa-thumbs-up"></i></button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-3"><i
+                                class="fa-solid fa-thumbs-down"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    <p>Text : If you like it then Thumbs Up anf if you don't like it then thumbs-down</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <h6 class="p-2">Model Prediction</h6>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-4"><i
+                                class="fa-solid fa-thumbs-up"></i></button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-3"><i
+                                class="fa-solid fa-thumbs-down"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    <p>Text : If you like it then Thumbs Up anf if you don't like it then thumbs-down</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <h6 class="p-2">Model Prediction</h6>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-4"><i
+                                class="fa-solid fa-thumbs-up"></i></button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-3"><i
+                                class="fa-solid fa-thumbs-down"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    <p>Text : If you like it then Thumbs Up anf if you don't like it then thumbs-down</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <h6 class="p-2">Model Prediction</h6>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-4"><i
+                                class="fa-solid fa-thumbs-up"></i></button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-3"><i
+                                class="fa-solid fa-thumbs-down"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    <p>Text : If you like it then Thumbs Up anf if you don't like it then thumbs-down</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <h6 class="p-2">Model Prediction</h6>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-4"><i
+                                class="fa-solid fa-thumbs-up"></i></button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-3"><i
+                                class="fa-solid fa-thumbs-down"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    <p>Text : If you like it then Thumbs Up anf if you don't like it then thumbs-down</p>
+                </div>
+                <div class="d-flex flex-row">
+                    <h6 class="p-2">Model Prediction</h6>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-4"><i
+                                class="fa-solid fa-thumbs-up"></i></button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-outline-none pb-3"><i
+                                class="fa-solid fa-thumbs-down"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="/static/js/home.js"></script>
+</body>
+
 </html>
