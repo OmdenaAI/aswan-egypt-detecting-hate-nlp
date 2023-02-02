@@ -43,7 +43,8 @@ This is the breakdown of the 'Datasets' from the table above ([5]).
 |10| slur-corpus | [https://github.com/networkdynamics/slur-corpus](https://github.com/networkdynamics/slur-corpus) |         |
 |11| The GabHate corpus | [https://osf.io/edua3/](https://osf.io/edua3/) |         |
 |12| IberEval 2018 | [https://amiibereval2018.wordpress.com/imnt-dates/data/](https://amiibereval2018.wordpress.com/imnt-dates/data/) |         |
-|13| HatefulUsersTwitter | [https://github.com/manoelhortaribeiro/HatefulUsersTwitter](https://github.com/manoelhortaribeiro/HatefulUsersTwitter) |         |
+|13| HatefulUsersTwitter | [https://github.com/manoelhortaribeiro/HatefulUsersTwitter](https://github.com/manoelhortaribeiro/HatefulUsersTwitter) | Aya Abdalsalam
+       |
 |14| Online hate speech (Gab) | [https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech](https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech) |         |
 |15| Online hate speech (Reddit) | [https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech](https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech) |         |
 |16| MLMA | [https://github.com/HKUST-KnowComp/MLMA_hate_speech](https://github.com/HKUST-KnowComp/MLMA_hate_speech) |         |
