@@ -50,13 +50,13 @@ Add rows if necessary.
 
 | Activity | Activity Name | Author Name | Details |
 |-|-|-|-|
-|1| pre-processing |         |         |
+|1| pre-processing | Vishu Kalier | completed (1 dataset) |
 |2| file integration | Caterina Bonan | in progress |
-|3|         |         |         |
-|4|         |         |         |
-|5|         |         |         |
-|6|         |         |         |
-|7|         |         |         |
+|3| pre-processing | Caterina Bonan | in progress (3 datasets) |
+|4| pre-processing | Hyacinth Ampadu | completed (1 dataset) |
+|5| pre-processing | Ameya Chaudhari | completed (3 datasets) |
+|6| script sharing | Ameya Chaudhari | completed |
+|7| script sharing | Hyacinth Ampadu | completed |
 |8|         |         |         |
 |9|         |         |         |
 |10|        |         |         |
