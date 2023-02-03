@@ -54,7 +54,7 @@ Add rows if necessary.
 
 | Activity | Activity Name | Author Name | Details |
 |-|-|-|-|
-|1| pre-processing | Vishu Kalier | completed (1 dataset) |
+|1| pre-processing | Vishu Kalier | completed (1 dataset, 159.572 entries) |
 |2| file integration | Caterina Bonan | in progress |
 |3| pre-processing | Caterina Bonan | in progress (3 datasets) |
 |4| pre-processing | Hyacinth Ampadu | completed (1 dataset, 223.550 entries) |
