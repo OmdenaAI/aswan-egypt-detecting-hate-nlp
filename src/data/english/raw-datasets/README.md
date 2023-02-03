@@ -35,7 +35,7 @@ This is the breakdown of the 'Datasets' from the table above ([5]).
 |2| Call Me Sexist | [https://search.gesis.org/research_data/SDN-10.7802-2251?doi=10.7802/2251](https://search.gesis.org/research_data/SDN-10.7802-2251?doi=10.7802/2251) | Caterina Bonan | in progress |
 |3| Elections | [https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/stance-hof/](https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/stance-hof/) |         |  |
 |4| AbuseEval v1.0 | [https://github.com/tommasoc80/AbuseEval](https://github.com/tommasoc80/AbuseEval) |         |  |
-|5| Abusive Swearing | [https://github.com/dadangewp/SWAD-Repository](https://github.com/dadangewp/SWAD-Repository) |         |  |
+|5| Abusive Swearing | [https://github.com/dadangewp/SWAD-Repository](https://github.com/dadangewp/SWAD-Repository) |  Vishu Kalier | In Progress |
 |6| MultiOFF | [https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text](https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text) |         |  |
 |7| HateEmoji | [https://github.com/HannahKirk/Hatemoji](https://github.com/HannahKirk/Hatemoji) |         |  |
 |8| Hate Check | [https://github.com/paul-rottger/hatecheck-data](https://github.com/paul-rottger/hatecheck-data) | Caterina Bonan | in progress |
