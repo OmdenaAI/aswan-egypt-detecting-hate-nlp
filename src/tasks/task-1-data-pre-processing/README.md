@@ -57,7 +57,7 @@ Add rows if necessary.
 |1| pre-processing | Vishu Kalier | completed (1 dataset) |
 |2| file integration | Caterina Bonan | in progress |
 |3| pre-processing | Caterina Bonan | in progress (3 datasets) |
-|4| pre-processing | Hyacinth Ampadu | completed (1 dataset) |
+|4| pre-processing | Hyacinth Ampadu | completed (1 dataset, 223.550 entries) |
 |5| pre-processing | Ameya Chaudhari | completed (3 datasets) |
 |6| script sharing | Ameya Chaudhari | completed |
 |7| script sharing | Hyacinth Ampadu | completed |
