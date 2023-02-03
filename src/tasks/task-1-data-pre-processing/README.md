@@ -1,5 +1,7 @@
 # Task 1: Data Pre-Processing
 
+__________________________________________
+
 ## Task Guidelines
 
 ### File structure
@@ -41,6 +43,8 @@ The pre-processing for the 'clean_sentence_training' column will involve the fol
 Please do NOT change the case of your sentences as the distinction between lowercase and uppercase can be meaningful in this context.
 
 The pre-processing for the 'clean_sentence_EDA' will involve all the steps above, *plus the deletion of all emojis* (if present).
+
+__________________________________________
 
 ## Task Table
 
