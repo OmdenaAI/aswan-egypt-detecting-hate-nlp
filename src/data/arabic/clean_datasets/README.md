@@ -47,7 +47,9 @@ The pre-processing for the 'clean_sentence_training' column will involve the fol
 
 2- stopwords removal;
 
-3- lemmatization (no NOT perform stemming at it can yield undesirable results);
+3- removal of digits and words containing digits, punctuation and special characters, extra spaces, links;
+
+4- lemmatization (no NOT perform stemming at it can yield undesirable results).
 
 Please do NOT change the case of your sentences as the distinction between lowercase and uppercase can be meaningful in this context.
 
