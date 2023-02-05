@@ -40,7 +40,7 @@ This is the breakdown of the 'Datasets' from the table above ([5]).
 |7| HateEmoji | [https://github.com/HannahKirk/Hatemoji](https://github.com/HannahKirk/Hatemoji) |         |  |
 |8| Hate Check | [https://github.com/paul-rottger/hatecheck-data](https://github.com/paul-rottger/hatecheck-data) | Caterina Bonan | completed |
 |9| CONAN | [https://github.com/marcoguerini/CONAN](https://github.com/marcoguerini/CONAN) |         |  |
-|10| slur-corpus | [https://github.com/networkdynamics/slur-corpus](https://github.com/networkdynamics/slur-corpus) |         |  |
+|10| slur-corpus | [https://github.com/networkdynamics/slur-corpus](https://github.com/networkdynamics/slur-corpus) | Caterina Bonan | in progress |
 |11| The GabHate corpus | [https://osf.io/edua3/](https://osf.io/edua3/) |         |  |
 |12| IberEval 2018 | [https://amiibereval2018.wordpress.com/imnt-dates/data/](https://amiibereval2018.wordpress.com/imnt-dates/data/) |         |  |
 |13| HatefulUsersTwitter | [https://github.com/manoelhortaribeiro/HatefulUsersTwitter](https://github.com/manoelhortaribeiro/HatefulUsersTwitter) |   |  |
