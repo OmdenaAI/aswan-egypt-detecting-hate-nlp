@@ -21,6 +21,7 @@ The table below lists the datasets chosen for our project, their location, and t
 |11| Malignant Comment Classification | [https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/surekharamireddy/malignant-comment-classification) | Vishu Kalier  | completed | 
 |12| measuring hate speech | [https://www.kaggle.com/datasets/mobassir/measuring-hate-speech](https://www.kaggle.com/datasets/mobassir/measuring-hate-speech) | Disregard. Combines datasets that are already being pre-processed. | NA | 
 |13| Curated Dataset - Mendeley  | [https://data.mendeley.com/datasets/9sxpkmm8xn](https://data.mendeley.com/datasets/9sxpkmm8xn) | Muthukumaran Manickavasagam | completed | 
+|14|zampieri2019: Offensive Posts in Social Media| https://github.com/julian-risch/toxic-comment-collection| Purti Sharma| completed|
 
 
 Please note that every addition/modification of the chosen data pool will have to be discussed with the task leaders (@VishuKalier2003 and @CaterinaBi).
