@@ -25,3 +25,7 @@ The summary of the task1 is provided below for references.
 - Malignant comment classification ( 159,571 sentences )
 
     The next task would be the Exploratory Data Analysis (EDA) of the clean datasets. Please refer to the readme.md file of the task2 for forthcoming references.
+
+
+# fFrom Task-leader and Co-leader
+# Vishu Kalier and Caterina Bonan
