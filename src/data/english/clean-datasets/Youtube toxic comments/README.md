@@ -1,0 +1,2 @@
+This is the cleaned version of hand-labelled toxicity data set containing 1000 comments crawled from YouTube videos about the Ferguson unrest in 2014. In addition to toxicity, this data set contained labels for multiple subclassifications of toxicity which form a hierarchical structure. I have fitted the original labels in the three classes - '2' for RISKY sentences (eg., 'hateful' or 'abusive');
+'1' for POTENTIALLY RISKY sentences (e.g., 'offensive)'; '0' for NON RISKY sentences.
