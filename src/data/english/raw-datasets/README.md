@@ -19,7 +19,7 @@ The table below lists the datasets chosen for our project, their location, and t
 |9| YouTube toxic comments | [https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data](https://www.kaggle.com/datasets/reihanenamdari/youtube-toxicity-data) | Astha Tripathi | in progress | 
 |10| Twittet Tweets Sentiment | [https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset) | Ameya Chaudhari  | completed | 
 |11| Malignant Comment Classification | [https://www.kaggle.com/datasets/yasserh/twitter-tweets-sentiment-dataset](https://www.kaggle.com/datasets/surekharamireddy/malignant-comment-classification) | Vishu Kalier  | completed | 
-|12| measuring hate speech | [https://www.kaggle.com/datasets/mobassir/measuring-hate-speech](https://www.kaggle.com/datasets/mobassir/measuring-hate-speech) | Disregard. Combines datasets that are already being pre-processed. | N/A | 
+|12| measuring hate speech | [https://www.kaggle.com/datasets/mobassir/measuring-hate-speech](https://www.kaggle.com/datasets/mobassir/measuring-hate-speech) | Disregard. Combines datasets that are already being pre-processed. | in progress | 
 |13| Curated Dataset - Mendeley  | [https://data.mendeley.com/datasets/9sxpkmm8xn](https://data.mendeley.com/datasets/9sxpkmm8xn) | Muthukumaran Manickavasagam | completed | 
 
 
