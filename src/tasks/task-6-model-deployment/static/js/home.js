@@ -36,7 +36,3 @@ function setdisLikes(count) {
 $("#check-btn").click(function () {
    // alert("ohk");
 });
-
-
-
-
