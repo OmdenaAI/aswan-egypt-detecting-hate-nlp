@@ -37,7 +37,7 @@ This is the breakdown of the 'Datasets' from the table above ([5]).
 |3| Elections | [https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/stance-hof/](https://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/stance-hof/) |  Rian Rachmanto       | Completed |
 |4| AbuseEval v1.0 | [https://github.com/tommasoc80/AbuseEval](https://github.com/tommasoc80/AbuseEval) |         |  |
 |5| Abusive Swearing | [https://github.com/dadangewp/SWAD-Repository](https://github.com/dadangewp/SWAD-Repository) |  Vishu Kalier | Completed |
-|6| MultiOFF | [https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text](https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text) |         |  |
+|6| MultiOFF | [https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text](https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text) | Mohamed Mohsen | in progress |
 |7| HateEmoji | [https://github.com/HannahKirk/Hatemoji](https://github.com/HannahKirk/Hatemoji) |         |  |
 |8| Hate Check | [https://github.com/paul-rottger/hatecheck-data](https://github.com/paul-rottger/hatecheck-data) | Caterina Bonan | completed |
 |9| CONAN | [https://github.com/marcoguerini/CONAN](https://github.com/marcoguerini/CONAN) |         |  |
