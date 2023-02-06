@@ -61,6 +61,6 @@ Add rows if necessary.
 |5| pre-processing | Ameya Chaudhari | completed (3 datasets) |
 |6| script sharing | Ameya Chaudhari | completed |
 |7| script sharing | Hyacinth Ampadu | completed |
-|8| Script sharing | Purti Sharma    | in progress 1 dataset| apprx. 13,000 entries
+|8| Script sharing | Purti Sharma    | completed| 13,240 entries|
 |9|         |         |         |
 |10|        |         |         |
