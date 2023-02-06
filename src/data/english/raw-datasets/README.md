@@ -42,7 +42,7 @@ This is the breakdown of the 'Datasets' from the table above ([5]).
 |8| Hate Check | [https://github.com/paul-rottger/hatecheck-data](https://github.com/paul-rottger/hatecheck-data) | Caterina Bonan | completed |
 |9| CONAN | [https://github.com/marcoguerini/CONAN](https://github.com/marcoguerini/CONAN) |         |  |
 |10| slur-corpus | [https://github.com/networkdynamics/slur-corpus](https://github.com/networkdynamics/slur-corpus) | Caterina Bonan | completed |
-|11| The GabHate corpus | [https://osf.io/edua3/](https://osf.io/edua3/) |         |  |
+|11| The GabHate corpus | [https://osf.io/edua3/](https://osf.io/edua3/) | Rian Rachmanto |In Progress  |
 |12| IberEval 2018 | [https://amiibereval2018.wordpress.com/imnt-dates/data/](https://amiibereval2018.wordpress.com/imnt-dates/data/) |         |  |
 |13| HatefulUsersTwitter | [https://github.com/manoelhortaribeiro/HatefulUsersTwitter](https://github.com/manoelhortaribeiro/HatefulUsersTwitter) |   |  |
 |14| Online hate speech (Gab) | [https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech](https://github.com/jing-qian/A-Benchmark-Dataset-for-Learning-to-Intervene-in-Online-Hate-Speech) | aya abdalsalam | in progress |
