@@ -28,4 +28,5 @@ Add rows if necessary.
 |5| EDA | Hyacinth Ampadu | Work on Integrated Dataset | In Progress |
 |6| EDA | Vishu Kalier | Work on Individual Dataset | In Progress |
 |7| EDA | Ameya Chaudhari | Work on Integrated Dataset | In Progress |
-|8| EDA | Caterina Bonan | Work on Integrated Dataset | In Progress |
+|8| EDA | Caterina Bonan | Work on Integrated Dataset | In Progress 
+|9| EDA | Muthukumaran Manickavasagam | Work on Individual Dataset | In progress |
