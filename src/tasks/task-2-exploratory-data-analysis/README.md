@@ -27,5 +27,5 @@ Add rows if necessary.
 |4| EDA | Ankan Deria | Combined all Datasets | complete | complete |
 |5| EDA | Hyacinth Ampadu | Work on Integrated Dataset | In Progress |
 |6| EDA | Vishu Kalier | Work on Integrated Dataset | In Progress |
-|7| EDA | Amey Chaudhari | Work on Integrated Dataset | In Progress |
+|7| EDA | Ameya Chaudhari | Work on Integrated Dataset | In Progress |
 |8| EDA | Caterina Bonan | Work on Integrated Dataset | In Progress |
