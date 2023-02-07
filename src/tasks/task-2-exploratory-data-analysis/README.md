@@ -19,13 +19,13 @@ Please modify the table below to register all activity within the task folder. U
 
 Add rows if necessary.
 
-| Activity | Activity Name | Author Name | Details |
-|-|-|-|-|
-|1| Creation of guidelines | Caterina Bonan | complete, notebook uploaded in folder |
-|2| Repo structure creation | Caterina Bonan | complete |
-|3| Task meeting organisation | Vishu Kalier | complete, to be held on 07/02 |
-|4| EDA | Hyacinth Ampadu | Work on Integrated dataset | 
-|5| EDA |         | to be assigned |
-|6| EDA |         | to be assigned |
-|7| EDA |         | to be assigned |
-|8| EDA |         | to be assigned |
+| Activity | Activity Name | Author Name | Details | Condition |
+|-|-|-|-|-|
+|1| Creation of guidelines | Caterina Bonan | notebook uploaded in folder | complete |
+|2| Repo structure creation | Caterina Bonan | created | complete |
+|3| Task meeting organisation | Vishu Kalier | to be held on 07/02 | complete |
+|4| EDA | Ankan Deria | Combined all Datasets | complete | complete |
+|5| EDA | Hyacinth Ampadu | Work on Integrated Dataset | In Progress |
+|6| EDA | Vishu Kalier | Work on Integrated Dataset | In Progress |
+|7| EDA | Amey Chaudhari | Work on Integrated Dataset | In Progress |
+|8| EDA | Caterina Bonan | Work on Integrated Dataset | In Progress |
