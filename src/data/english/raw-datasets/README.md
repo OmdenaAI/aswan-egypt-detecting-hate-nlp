@@ -22,7 +22,7 @@ The table below lists the datasets chosen for our project, their location, and t
 |12| measuring hate speech | [https://www.kaggle.com/datasets/mobassir/measuring-hate-speech](https://www.kaggle.com/datasets/mobassir/measuring-hate-speech) | Disregard. Combines datasets that are already being pre-processed. | NA | 
 |13| Curated Dataset - Mendeley  | [https://data.mendeley.com/datasets/9sxpkmm8xn](https://data.mendeley.com/datasets/9sxpkmm8xn) | Muthukumaran Manickavasagam | completed | 
 |14|zampieri2019: Offensive Posts in Social Media| https://github.com/julian-risch/toxic-comment-collection| Purti Sharma| completed|
-|15|ipavlopoulos: context_toxicity| https://github.com/ipavlopoulos/context_toxicity| Daniel Navarro | In-Progress |
+
 
 
 Please note that every addition/modification of the chosen data pool will have to be discussed with the task leaders (@VishuKalier2003 and @CaterinaBi).
@@ -52,3 +52,4 @@ This is the breakdown of the 'Datasets' from the table above ([5]).
 |17| hatEval | [http://competitions.codalab.org/competitions/19935](http://competitions.codalab.org/competitions/19935) | Rujuta Karekar  | in progress |
 |18| ETHOS | [https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset](https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset) | Vishu Kalier | In Progress |
 |19| Twitter Sentiment Analysis | [https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech](https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech) |  Rubaiyat Islam       | in progress |
+|20|ipavlopoulos: context_toxicity| https://github.com/ipavlopoulos/context_toxicity| Daniel Navarro | In-Progress |
