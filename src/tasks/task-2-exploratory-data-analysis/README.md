@@ -24,7 +24,7 @@ Add rows if necessary.
 |1| Creation of guidelines | Caterina Bonan | complete, notebook uploaded in folder |
 |2| Repo structure creation | Caterina Bonan | complete |
 |3| Task meeting organisation | Vishu Kalier | complete, to be held on 07/02 |
-|4| EDA |         | to be assigned |
+|4| EDA | Hyacinth Ampadu | Work on Integrated dataset | 
 |5| EDA |         | to be assigned |
 |6| EDA |         | to be assigned |
 |7| EDA |         | to be assigned |
