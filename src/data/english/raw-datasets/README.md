@@ -22,6 +22,7 @@ The table below lists the datasets chosen for our project, their location, and t
 |12| measuring hate speech | [https://www.kaggle.com/datasets/mobassir/measuring-hate-speech](https://www.kaggle.com/datasets/mobassir/measuring-hate-speech) | Disregard. Combines datasets that are already being pre-processed. | NA | 
 |13| Curated Dataset - Mendeley  | [https://data.mendeley.com/datasets/9sxpkmm8xn](https://data.mendeley.com/datasets/9sxpkmm8xn) | Muthukumaran Manickavasagam | completed | 
 |14|zampieri2019: Offensive Posts in Social Media| https://github.com/julian-risch/toxic-comment-collection| Purti Sharma| completed|
+|15|ipavlopoulos: context_toxicity| https://github.com/ipavlopoulos/context_toxicity| Daniel Navarro | In-Progress |
 
 
 Please note that every addition/modification of the chosen data pool will have to be discussed with the task leaders (@VishuKalier2003 and @CaterinaBi).
