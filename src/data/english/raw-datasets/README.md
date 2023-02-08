@@ -52,4 +52,4 @@ This is the breakdown of the 'Datasets' from the table above ([5]).
 |17| hatEval | [http://competitions.codalab.org/competitions/19935](http://competitions.codalab.org/competitions/19935) | Rujuta Karekar  | in progress |
 |18| ETHOS | [https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset](https://github.com/intelligence-csd-auth-gr/Ethos-Hate-Speech-Dataset) | Vishu Kalier | In Progress |
 |19| Twitter Sentiment Analysis | [https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech](https://www.kaggle.com/arkhoshghalb/twitter-sentiment-analysis-hatred-speech) |  Rubaiyat Islam       | in progress |
-|20|ipavlopoulos: context_toxicity| https://github.com/ipavlopoulos/context_toxicity| Daniel Navarro | In-Progress |
+|20|ipavlopoulos: context_toxicity| https://github.com/ipavlopoulos/context_toxicity| Daniel Navarro | Complete |
