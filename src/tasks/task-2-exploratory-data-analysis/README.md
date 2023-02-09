@@ -30,6 +30,7 @@ Add rows if necessary.
 |7| EDA | Ameya Chaudhari | Work on Integrated Dataset | In Progress |
 |8| EDA | Caterina Bonan | Work on Integrated Dataset | In Progress 
 |9| EDA | Muthukumaran Manickavasagam | Work on Individual Dataset | In progress |
-|10| EDA| Purti Sharma| Work on Individual Dataset- First | In Progress|
+|10| EDA| Purti Sharma| Work on Individual Dataset- Part 1 | Completed|
 |11| EDA | Assitan Koné| Work on Integrated Dataset | In Progress |
 |12| EDA | Mohamed Mohsen | Work on Individual Dataset | In Progress |
+|13| EDA| Purti Sharma| Word on Integrated Dataset- Part 2| In Progress|
