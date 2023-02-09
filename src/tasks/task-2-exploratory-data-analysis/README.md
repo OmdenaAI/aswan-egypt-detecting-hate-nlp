@@ -33,4 +33,4 @@ Add rows if necessary.
 |10| EDA| Purti Sharma| Work on Individual Dataset- Part 1 | Completed|
 |11| EDA | Assitan Koné| Work on Integrated Dataset | In Progress |
 |12| EDA | Mohamed Mohsen | Work on Individual Dataset | In Progress |
-|13| EDA| Purti Sharma| Word on Integrated Dataset- Part 2| In Progress|
+|13| EDA| Purti Sharma| Work on Integrated Dataset- Part 2| In Progress|
