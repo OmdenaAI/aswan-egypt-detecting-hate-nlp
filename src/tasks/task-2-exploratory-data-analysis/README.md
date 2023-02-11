@@ -36,3 +36,4 @@ Add rows if necessary.
 |13| EDA| Purti Sharma| Work on Integrated Dataset- Part 2| In Progress|
 |14| EDA | Astha Tripathi | Work on Individual Dataset | In Progress |
 |15| EDA | Christian De Los Santos | Work on Individual Dataset | In Progress |
+|16| EDA | Rian Rachmanto | Work on Individual Dataset | Completed
