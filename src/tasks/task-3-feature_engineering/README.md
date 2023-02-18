@@ -2,7 +2,7 @@
 # Task 3: Feature Engineering
 
 ## Task Details
-The feature engineering task has been split into following three teams:
+The feature engineering task has been split into following four teams:
 - Working on POS Tagging
 - Working on TF-IDF Vectorization
 - N-Gram Models
