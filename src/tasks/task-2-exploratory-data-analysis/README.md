@@ -37,4 +37,4 @@ Add rows if necessary.
 |14| EDA | Astha Tripathi | Work on Individual Dataset | Completed |
 |15| EDA | Christian De Los Santos | Work on Individual Dataset | Completed |
 |16| EDA | Rian Rachmanto | Work on Individual Dataset | Completed
-|17| EDA | Aya Abdalsalam |a-benchmark-dataset| Complated |
+|17| EDA | Aya Abdalsalam | Work on Inividu al Dataset | Complated |
