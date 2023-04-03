@@ -4,6 +4,9 @@ import psycopg2
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import os
+from transformers import DistilBertTokenizer, TFDistilBertModel
+from keras.models import load_model
+import numpy as np
 
 load_dotenv()
 
@@ -14,13 +17,37 @@ app.config["DBUSER"] = os.environ.get("DBUSER")
 app.config["DBPASSWORD"] = os.environ.get("DBPASSWORD")
 app.config["DBPORT"] = int(os.environ.get("DBPORT"))
 app.config["SECRET_KEY"] = os.environ.get("AUTHSECRET")
-             
 
+trained_model = load_model("./DL_model_DistilBert_Lstm.h5", custom_objects = {'TFDistilBertModel': TFDistilBertModel})
+
+tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
+bert_model = TFDistilBertModel.from_pretrained('distilbert-base-uncased')
+MAX_LEN = 128
 
 
 @app.route("/")
 def hello_world():
     return render_template('/home.html')
+
+@app.route("/check-statement", methods = ['POST'])
+def check_statement():
+    print('Got the hit!!')
+    data = request.form
+    text_tokenized = tokenizer.encode_plus(
+        data['text'],
+        max_length=MAX_LEN,
+        padding='max_length',
+        truncation=True,
+        return_token_type_ids=False,
+        return_tensors='tf'
+    )
+    print('Tokenized Text has been generated!')
+    prediction = trained_model.predict([text_tokenized['input_ids'].numpy()])
+    print('Prediction done!')
+    pred = np.argmax(prediction)
+    print('got max probable class done!')
+    print('pred', pred)
+    return {'Status:': True, 'prediction': int(pred)}
 
 
 @app.route("/user/login")

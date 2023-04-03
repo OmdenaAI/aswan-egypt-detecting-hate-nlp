@@ -2,3 +2,6 @@ Flask
 flask-jwt-extended
 psycopg2
 python-dotenv
+transformers
+keras
+tensorflow

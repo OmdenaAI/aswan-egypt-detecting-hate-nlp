@@ -131,3 +131,11 @@ dmypy.json
 
 /src/tasks/task-6-model-deployment/init.sql
 /src/tasks/task-6-model-deployment/.env
+
+*.zip
+*.h5
+*.hdf5
+*.exe
+
+/src/tasks/task-6-model-deployment/Scripts
+/src/tasks/task-6-model-deployment/pyvenv.cfg

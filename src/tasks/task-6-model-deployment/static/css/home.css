@@ -7,13 +7,17 @@
 }
 .hateful {
     color: red;
+    display: none;
 }
 
 .risk {
     color: orange;
+    display: none;
 }
 
-
+.neutral{
+    display: none;
+}
 
 header{
     color: #fff;
