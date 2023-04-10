@@ -1,22 +1,22 @@
 from flask import Flask, render_template, request, jsonify, make_response
 import jwt
-import psycopg2
+# import psycopg2
 from datetime import datetime, timedelta
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 from transformers import DistilBertTokenizer, TFDistilBertModel
 from keras.models import load_model
 import numpy as np
 
-load_dotenv()
+# load_dotenv()
 
 app = Flask(__name__)
 
-app.config["DBNAME"] = os.environ.get("DBNAME")
-app.config["DBUSER"] = os.environ.get("DBUSER")
-app.config["DBPASSWORD"] = os.environ.get("DBPASSWORD")
-app.config["DBPORT"] = int(os.environ.get("DBPORT"))
-app.config["SECRET_KEY"] = os.environ.get("AUTHSECRET")
+# app.config["DBNAME"] = os.environ.get("DBNAME")
+# app.config["DBUSER"] = os.environ.get("DBUSER")
+# app.config["DBPASSWORD"] = os.environ.get("DBPASSWORD")
+# app.config["DBPORT"] = int(os.environ.get("DBPORT"))
+# app.config["SECRET_KEY"] = os.environ.get("AUTHSECRET")
 
 trained_model = load_model("./DL_model_DistilBert_Lstm.h5", custom_objects = {'TFDistilBertModel': TFDistilBertModel})
 
@@ -50,36 +50,36 @@ def check_statement():
     return {'Status:': True, 'prediction': int(pred)}
 
 
-@app.route("/user/login")
-def user_login():
-    #if user cannot be found
-    auth = request.authorization
-    if not auth:
-        return "missing credentials", 401
+# @app.route("/user/login")
+# def user_login():
+#     #if user cannot be found
+#     auth = request.authorization
+#     if not auth:
+#         return "missing credentials", 401
 
-    #connect to postgreSQL database
-    conn = psycopg2.connect(dbname=app.config["DBNAME"],user=app.config["DBUSER"],
-            password=app.config["DBPASSWORD"], port = app.config["DBPORT"])
-    cur = conn.cursor()
+#     #connect to postgreSQL database
+#     conn = psycopg2.connect(dbname=app.config["DBNAME"],user=app.config["DBUSER"],
+#             password=app.config["DBPASSWORD"], port = app.config["DBPORT"])
+#     cur = conn.cursor()
     
-    #check for username and password in database
-    cur.execute(
-            f"SELECT * FROM users;", 
-             ) 
-    row = cur.fetchone() 
+#     #check for username and password in database
+#     cur.execute(
+#             f"SELECT * FROM users;", 
+#              ) 
+#     row = cur.fetchone() 
 
-    #if there's a user
-    if len(row) > 1:  
-        email = row[1]
-        password = row[2]
+#     #if there's a user
+#     if len(row) > 1:  
+#         email = row[1]
+#         password = row[2]
 
-        if auth.username != email or auth.password != password:
-            return "invalid credentials", 401
-        else:
-            token = jwt.encode({'username':auth.username, 'exp':datetime.utcnow()+ timedelta(minutes=10),'alg':"HS256"},app.config["SECRET_KEY"])
-            return jsonify({'token':token})
-    else:
-        return "user missing credentials", 401
+#         if auth.username != email or auth.password != password:
+#             return "invalid credentials", 401
+#         else:
+#             token = jwt.encode({'username':auth.username, 'exp':datetime.utcnow()+ timedelta(minutes=10),'alg':"HS256"},app.config["SECRET_KEY"])
+#             return jsonify({'token':token})
+#     else:
+#         return "user missing credentials", 401
 
 
 
